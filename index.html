@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Groceries practice</title>
+    <link href="css/bootstrap.css" ref="stylesheet" type="text/css" />
+    <link href="css/styles.css" ref="stylesheet" type="text/css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row"> <!-- Header -->
+        <div class="col-md-12">
+          <h1>groceries list</h1>
+        </div>
+      </div>
+      <div class="row"> <!-- Form -->
+        <div class="col-md-12">
+          <form id="groceriesEntry">
+            <button class="btn btn-primary" id="addItem">Add new item</button>
+            <ul id="itemList">
+            </ul>
+            <button class="btn btn-primary" type="submit" id="submitList">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row"><!-- Return Result -->
+        <div class="col-md-12">
+          <ul class="unstyled" id="returnResult">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
